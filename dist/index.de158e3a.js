@@ -2,16 +2,15 @@
 let demo = document.querySelector("#demo");
 let style = document.querySelector("#style");
 let string = `
-/*您好，我是一名前端新人
-接下来我要加样式了
-我要加的样式是*/
+/*接下来我给各位画一个太极*/
+/*我要开始画了*/
 #div1{
     border:solid 1px red;
     width:400px;
     height:400px;
     position:fixed;
-    right:20px;
-    top:20px;
+    right:100px;
+    top:100px;
     border-radius:50%;
     box-shadow:0 0 3px rgba(0,0,0,0.5); 
     border:none;
@@ -61,7 +60,7 @@ let step = ()=>{
         demo.innerHTML = string2;
         style.innerHTML = string.substring(0, n);
         if (n + 1 < string.length) step();
-    }, 0);
+    }, 500);
 };
 step();
 
