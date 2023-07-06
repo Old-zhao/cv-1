@@ -53,8 +53,8 @@ let n = -1;
 // setTimeout 定时执行
 // setInterval 每隔一段时间执行一次
 // 使用setTimeouto，实现每隔一段时间执行一次。好处是能够根据条件设置停止机制
-let step = ()=>{
-    setTimeout(()=>{
+let step = () => {
+    setTimeout(() => {
         n += 1;
         string2 += string[n] === "\n" ? "</br>" : string[n];
         // 向容器中写入内容
@@ -65,4 +65,4 @@ let step = ()=>{
 };
 step();
 
-//# sourceMappingURL=index.de158e3a.js.map
+//# sourceMappingURL=dist/index.de158e3a.js.map
