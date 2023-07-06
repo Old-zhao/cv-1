@@ -9,8 +9,8 @@ let string = `
     width:400px;
     height:400px;
     position:fixed;
-    right:200px;
-    top:200px;
+    right:300px;
+    top:100px;
     border-radius:50%;
     box-shadow:0 0 3px rgba(0,0,0,0.5); 
     border:none;
@@ -60,7 +60,7 @@ let step = ()=>{
         demo.innerHTML = string2;
         style.innerHTML = string.substring(0, n);
         if (n + 1 < string.length) step();
-    }, 1000);
+    }, 50);
 };
 step();
 
