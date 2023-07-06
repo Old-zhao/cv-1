@@ -10,8 +10,8 @@ let string = `
     width:400px;
     height:400px;
     position:fixed;
-    right:100px;
-    top:100px;
+    right:200px;
+    top:200px;
     border-radius:50%;
     box-shadow:0 0 3px rgba(0,0,0,0.5); 
     border:none;
@@ -67,7 +67,7 @@ let step = () => {
         } else {
 
         };
-    }, 500);
+    }, 1000);
 }
 
 
