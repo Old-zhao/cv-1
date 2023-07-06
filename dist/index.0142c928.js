@@ -1,4 +1,4 @@
-let r=document.querySelector("#demo"),e=document.querySelector("#style"),o=`
+let r = document.querySelector("#demo"), e = document.querySelector("#style"), o = `
 /*您好，我是一名前端新人
 接下来我要加样式了
 我要加的样式是*/
@@ -44,5 +44,5 @@ let r=document.querySelector("#demo"),e=document.querySelector("#style"),o=`
     border:none;
     background: radial-gradient(circle, rgba(0,0,0,1) 25%, rgba(255,255,255,1) 25%);
 
-};`;string2="";let d=-1,i=()=>{setTimeout(()=>{d+=1,string2+="\n"===o[d]?"</br>":o[d],r.innerHTML=string2,e.innerHTML=o.substring(0,d),d+1<o.length&&i()},0)};i();
-//# sourceMappingURL=index.0142c928.js.map
+};`; string2 = ""; let d = -1, i = () => { setTimeout(() => { d += 1, string2 += "\n" === o[d] ? "</br>" : o[d], r.innerHTML = string2, e.innerHTML = o.substring(0, d), d + 1 < o.length && i() }, 0) }; i();
+//# sourceMappingURL=dist/index.0142c928.js.map
