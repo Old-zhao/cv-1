@@ -3,15 +3,15 @@ let demo = document.querySelector('#demo');
 let style = document.querySelector('#style')
 
 let string = `
-/*接下来我给各位画一个太极*/
-/*我要开始画了*/
+/*接下来我给各位画一个太极
+我要开始画了*/
 #div1{
     border:solid 1px red;
     width:400px;
     height:400px;
     position:fixed;
-    right:200px;
-    top:200px;
+    right:300px;
+    top:100px;
     border-radius:50%;
     box-shadow:0 0 3px rgba(0,0,0,0.5); 
     border:none;
@@ -67,7 +67,7 @@ let step = () => {
         } else {
 
         };
-    }, 1000);
+    }, 50);
 }
 
 
